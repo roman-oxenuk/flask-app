@@ -15,5 +15,6 @@ class FlaskAppTests(unittest.TestCase):
         r = self.app.post('/')
         self.assertEqual(r.status_code, 405)
 
+
 if __name__ == '__main__':
     unittest.main()
